@@ -1,2 +1,6 @@
 scipy
 jupyter
+transformers
+sentencepiece
+torch 
+torchvision
