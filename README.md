@@ -6,20 +6,23 @@ source .env \
 ```
 
 ## download huggingface models
-https://huggingface.co/docs/hub/models-downloading#using-git
-https://stackoverflow.com/questions/48734119/git-lfs-is-not-a-git-command-unclear
-https://huggingface.co/google/flan-t5-xxl
 ```
 git lfs
 git clone https://huggingface.co/google/flan-t5-xxl
 ```
 
-aws ec2, set up ubuntu 20.0.4 with all the needed deps
+https://huggingface.co/docs/hub/models-downloading#using-git
+https://stackoverflow.com/questions/48734119/git-lfs-is-not-a-git-command-unclear
+https://huggingface.co/google/flan-t5-xxl
+
+## aws ec2, set up ubuntu 20.0.4 with all the needed deps
+
 git
 ```
 sudo apt update
 sudo apt install git
 ```
+
 docker
 ```
 sudo apt update
@@ -29,6 +32,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt update
 sudo apt install docker-ce
 ```
+
 git lfs
 ```
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
@@ -42,3 +46,14 @@ screen -r <name>
 screen -X sessionname <name>
 screen -X sessionname jupyter-notebook
 ```
+
+## ssh into ec2
+move .pem file to this folder
+go to "connect" -> "connect via ssh client"
+
+```
+chmod 400 your-key-pair.pem
+chmod 400 steven-new.pem
+ssh -i "steven-new.pem" ubuntu@ec2-18-216-43-17.us-east-2.compute.amazonaws.com
+```
+
