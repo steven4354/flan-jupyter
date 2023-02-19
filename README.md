@@ -1,5 +1,13 @@
 ### running this locally
+
 new
+```bash
+source .env \
+&& sudo docker build -t jupyter . \
+&& sudo docker run -v $(pwd):/app -p 8888:8888 jupyter
+```
+
+old
 ```bash
 source .env \
 && sudo docker build -t jupyter . \
@@ -19,7 +27,9 @@ http://18.216.43.17:8888/?token=<token>
 ```
 
 ### download huggingface models
-```
+
+```bash
+# go into the /flan-jupyter folder
 git lfs
 git clone https://huggingface.co/google/flan-t5-xxl
 ```
