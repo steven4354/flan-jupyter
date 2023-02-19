@@ -30,6 +30,13 @@ https://huggingface.co/google/flan-t5-xxl
 
 ### aws ec2, set up ubuntu 20.0.4 with all the needed deps
 
+ec2 details
+- ubuntu 20.0.2
+- security group open to ports
+- 500 gb storage & 32 gb ram
+- public subnet
+- creates IP address
+
 git
 ```bash
 sudo apt update
