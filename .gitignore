@@ -2,4 +2,5 @@
 .ipynb_checkpoints
 .env
 *.pem
+flan-t5-xxl
 flan-t5-xxl/*

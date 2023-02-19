@@ -1,6 +1,19 @@
-### running this locally
+### running this on ec2 instance
 
 new
+```bash
+# clone
+git clone https://github.com/steven4354/flan-jupyter
+git submodule init
+
+# get rid of docker
+pip install -r requirements.txt
+
+# if jupyter is missing just use sudo snap install jupyter
+jupyter notebook --port=8888 --no-browser --ip=0.0.0.0
+```
+
+old
 ```bash
 source .env \
 && sudo docker build -t jupyter . \
@@ -34,6 +47,7 @@ git clone https://huggingface.co/google/flan-t5-xxl
 
 # then move this folder into flan-jupyter
 mv flan-t5-xxl ~/flan-jupyter
+mv flan-t5-xxl ~
 ```
 
 https://huggingface.co/docs/hub/models-downloading#using-git
@@ -71,6 +85,11 @@ curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.s
 sudo apt-get install git-lfs
 ```
 
+install pip
+```
+https://linuxize.com/post/how-to-install-pip-on-ubuntu-20.04/?utm_content=cmp-true
+```
+
 ### using screens
 ```
 screen -ls
@@ -95,4 +114,10 @@ ssh -i "steven-new.pem" ubuntu@ec2-18-216-43-17.us-east-2.compute.amazonaws.com
 ```
 docker run -v /path/to/model_files:/app/model_files -p 8888:8888 my_docker_image
 docker run -v ./flan-t5-xxl:/app/flan-t5-xxl -p 8888:8888 jupyter
+```
+
+### add t5 xxl as submodule
+```
+screen
+git submodule add https://huggingface.co/google/flan-t5-xxl
 ```
