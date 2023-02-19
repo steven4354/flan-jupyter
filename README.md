@@ -1,10 +1,11 @@
+## running this locally
 ```
 source .env \
 && docker build -t jupyter . \
 && docker run --memory=4g -v $(pwd):/app -p 8888:8888 jupyter
 ```
 
-download huggingface models
+## download huggingface models
 https://huggingface.co/docs/hub/models-downloading#using-git
 https://stackoverflow.com/questions/48734119/git-lfs-is-not-a-git-command-unclear
 https://huggingface.co/google/flan-t5-xxl
@@ -34,9 +35,10 @@ curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.s
 sudo apt-get install git-lfs
 ```
 
-using screens
+## using screens
 ```
 screen -ls
 screen -r <name>
 screen -X sessionname <name>
+screen -X sessionname jupyter-notebook
 ```
