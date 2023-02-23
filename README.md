@@ -1,3 +1,11 @@
+## Next steps
+
+Use GCP to set up a small GPU ubuntu instance to run Flan's largest version Flan-XXL to test out inference
+
+Depending on results investigate retraining xxl
+
+If the above works, throw out this code and track the above steps instead
+
 ### running this on ec2 instance
 
 new
