@@ -12,4 +12,4 @@ clone this repo
 
 [install pip](https://linuxize.com/post/how-to-install-pip-on-ubuntu-20.04/?utm_content=cmp-true)
 
-still on pip3 -> next: pip2
+next -> `sudo python2 get-pip.py`
