@@ -50,12 +50,9 @@ http://18.216.43.17:8888/?token=<token>
 ### download huggingface models
 
 ```bash
+# make a new screen
 git lfs
 git clone https://huggingface.co/google/flan-t5-xxl
-
-# then move this folder into flan-jupyter
-mv flan-t5-xxl ~/flan-jupyter
-mv flan-t5-xxl ~
 ```
 
 https://huggingface.co/docs/hub/models-downloading#using-git
