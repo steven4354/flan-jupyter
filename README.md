@@ -12,6 +12,7 @@ clone this repo
 
 [install pip](https://linuxize.com/post/how-to-install-pip-on-ubuntu-20.04/?utm_content=cmp-true)
 
+run:
 ```bash
 cd flan-jupyter
 pip3 install -r requirements.txt
