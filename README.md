@@ -20,3 +20,15 @@ pip3 install -r requirements.txt
 <!-- next -->
 jupyter notebook --port=8888 --no-browser --ip=0.0.0.0
 ```
+
+# troubleshoot
+
+## jupyter or other pip deps not found
+
+add the pip dep location to path
+
+```
+export PATH="$HOME/.local/bin:$PATH"
+```
+
+you can add the above to your `.bashrc` or `.zshrc` as well
