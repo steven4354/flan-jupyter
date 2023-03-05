@@ -2,7 +2,7 @@
 
 repo to track testing of open sourced flan models
 
-# process
+## process
 
 testing google cloud vm instance with a t4 gpu for inference
 
@@ -21,9 +21,9 @@ pip3 install -r requirements.txt
 jupyter notebook --port=8888 --no-browser --ip=0.0.0.0
 ```
 
-# troubleshoot
+## troubleshoot
 
-## jupyter or other pip deps not found
+### jupyter or other pip deps not found
 
 add the pip dep location to path
 
