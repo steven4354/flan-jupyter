@@ -56,7 +56,9 @@ git clone https://huggingface.co/google/flan-t5-xxl
 ```
 
 https://huggingface.co/docs/hub/models-downloading#using-git
+
 https://stackoverflow.com/questions/48734119/git-lfs-is-not-a-git-command-unclear
+
 https://huggingface.co/google/flan-t5-xxl
 
 ### aws ec2, set up ubuntu 20.0.4 with all the needed deps
