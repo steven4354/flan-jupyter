@@ -25,10 +25,9 @@ jupyter notebook --port=8888 --no-browser --ip=0.0.0.0
 
 ### jupyter or other pip deps not found
 
-add the pip dep location to path
-
 ```
+# add the pip dep location to path
+# you can add the below to your `.bashrc` or `.zshrc` as well
 export PATH="$HOME/.local/bin:$PATH"
 ```
 
-you can add the above to your `.bashrc` or `.zshrc` as well
