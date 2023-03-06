@@ -42,4 +42,4 @@ config.json                    model.safetensors.index.json  tf_model.h5.index.j
 flax_model.msgpack.index.json  pytorch_model.bin.index.json  tokenizer.json
 ```
 
-do `git lfs fetch` (source)[https://github.com/git-lfs/git-lfs/issues/325#issuecomment-122896144]
+do `git lfs fetch` [source](https://github.com/git-lfs/git-lfs/issues/325#issuecomment-122896144)
