@@ -31,9 +31,9 @@ jupyter notebook --port=8888 --no-browser --ip=0.0.0.0
 export PATH="$HOME/.local/bin:$PATH"
 ```
 
-### git lfs
+### git lfs not downloading model files
 
-prev
+looks like this?
 
 ```
 steven@instance-2:~/flan-t5-xxl$ ls
@@ -41,3 +41,5 @@ README.md                      generation_config.json        special_tokens_map.
 config.json                    model.safetensors.index.json  tf_model.h5.index.json
 flax_model.msgpack.index.json  pytorch_model.bin.index.json  tokenizer.json
 ```
+
+do `git lfs fetch` (source)[https://github.com/git-lfs/git-lfs/issues/325#issuecomment-122896144]
