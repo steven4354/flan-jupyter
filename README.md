@@ -14,7 +14,7 @@ instance type
 - t4 nvidia
 ```
 
-### using the setup.sh
+### setup steps
 
 ssh into the vm, then:
 
@@ -25,7 +25,8 @@ cd flan-jupyter
 sh setup.sh
 ```
 
-### manually 
+### alternatively, manually 
+
 [download model files](https://github.com/steven4354/flan-jupyter/blob/main/README.old.md#download-huggingface-models)
 
 clone this repo
