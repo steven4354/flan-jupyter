@@ -1,7 +1,5 @@
 # flan-jupyter
 
-repo to track testing of open sourced flan models
-
 ## setup
 
 instance type
