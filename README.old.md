@@ -55,6 +55,8 @@ git lfs
 git clone https://huggingface.co/google/flan-t5-xxl
 ```
 
+install git lfs: https://askubuntu.com/questions/799341/how-to-install-git-lfs-on-ubuntu-16-04
+
 https://huggingface.co/docs/hub/models-downloading#using-git
 
 https://stackoverflow.com/questions/48734119/git-lfs-is-not-a-git-command-unclear
