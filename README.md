@@ -2,7 +2,7 @@
 
 repo to track testing of open sourced flan models
 
-## process
+## setup
 
 instance type
 ```markdown
@@ -13,6 +13,19 @@ instance type
 - 32gb ram 
 - t4 nvidia
 ```
+
+### using the setup.sh
+
+ssh into the vm, then:
+
+```
+screen
+git clone https://github.com/steven4354/flan-jupyter
+cd flan-jupyter
+sh setup.sh
+```
+
+### manually 
 [download model files](https://github.com/steven4354/flan-jupyter/blob/main/README.old.md#download-huggingface-models)
 
 clone this repo
