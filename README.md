@@ -4,8 +4,15 @@ repo to track testing of open sourced flan models
 
 ## process
 
-testing google cloud vm instance with a t4 gpu for inference
-
+instance type
+```markdown
+- gcp
+- virtual machine
+- 1000 gb storage
+- open all ports (firewall rule/target)
+- 32gb ram 
+- t4 nvidia
+```
 [download model files](https://github.com/steven4354/flan-jupyter/blob/main/README.old.md#download-huggingface-models)
 
 clone this repo
