@@ -13,7 +13,6 @@ sudo python2 get-pip.py
 pip2 --version
 
 # prep jupyter notebook
-cd /flan-jupyter
 pip install -r requirements.txt
 
 # clone down models
