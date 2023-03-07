@@ -1,5 +1,3 @@
-# flan-jupyter
-
 ## setup
 
 instance type
