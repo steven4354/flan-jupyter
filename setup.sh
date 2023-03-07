@@ -2,15 +2,6 @@
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 sudo apt-get install git-lfs
 
-# clone down models
-cd
-
-git lfs
-git clone https://huggingface.co/google/flan-t5-xxl
-
-git lfs
-git clone https://huggingface.co/t5-large
-
 # install pip
 sudo apt update
 sudo apt install python3-pip
@@ -24,5 +15,15 @@ pip2 --version
 # prep jupyter notebook
 cd /flan-jupyter
 pip install -r requirements.txt
+
+# clone down models
+cd
+
+git lfs
+git clone https://huggingface.co/google/flan-t5-xxl
+
+git lfs
+git clone https://huggingface.co/t5-large
+
 
 
