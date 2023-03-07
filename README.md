@@ -1,6 +1,7 @@
 ## setup
 
-instance type
+create this instance type on google cloud
+
 ```markdown
 - gcp
 - virtual machine
@@ -9,6 +10,8 @@ instance type
 - 32gb ram 
 - t4 nvidia
 ```
+
+(you will need a business account to access gpus)
 
 ### setup steps
 
