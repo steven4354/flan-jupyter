@@ -41,11 +41,11 @@ pip3 install -r requirements.txt
 jupyter notebook --port=8888 --no-browser --ip=0.0.0.0
 ```
 
-### troubleshoot
+## troubleshoot
 
 common problems
 
-#### jupyter or other pip deps not found
+### jupyter or other pip deps not found
 
 ```
 # add the pip dep location to path
@@ -53,7 +53,7 @@ common problems
 export PATH="$HOME/.local/bin:$PATH"
 ```
 
-#### git lfs not downloading model files
+### git lfs not downloading model files
 
 looks like this?
 
