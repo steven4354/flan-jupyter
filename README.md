@@ -13,7 +13,7 @@ create this instance type on google cloud
 
 (you will need a business account to access gpus)
 
-### setup steps
+### A. setup steps
 
 ssh into the vm, then:
 
@@ -24,7 +24,7 @@ cd flan-jupyter
 sh setup.sh
 ```
 
-### alternatively, manually 
+### B. alternatively, manually 
 
 [download model files](https://github.com/steven4354/flan-jupyter/blob/main/README.old.md#download-huggingface-models)
 
@@ -41,9 +41,11 @@ pip3 install -r requirements.txt
 jupyter notebook --port=8888 --no-browser --ip=0.0.0.0
 ```
 
-## troubleshoot
+### troubleshoot
 
-### jupyter or other pip deps not found
+common problems
+
+#### jupyter or other pip deps not found
 
 ```
 # add the pip dep location to path
@@ -51,7 +53,7 @@ jupyter notebook --port=8888 --no-browser --ip=0.0.0.0
 export PATH="$HOME/.local/bin:$PATH"
 ```
 
-### git lfs not downloading model files
+#### git lfs not downloading model files
 
 looks like this?
 
